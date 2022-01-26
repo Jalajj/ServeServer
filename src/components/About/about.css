@@ -1,0 +1,41 @@
+.single-project img {
+    border-radius: 10px;
+    position:relative;
+    left:100px;
+  }
+  
+  
+  .project-content-block {
+    padding: 70px 40px;
+    margin-left: -120px;
+    background: #F4F7FC;
+    position: absolute;
+    top:200px;
+    border: 15px solid #fff;
+    box-shadow: 0 7px 22px rgba(0, 0, 0, 0.08);
+  }
+  
+  .project-content-block h4 {
+    color: #2156c8;
+  }
+  
+  .project-content-block p {
+    margin-top: 25px;
+  }
+
+  @media(max-width:500px){
+    .single-project img {
+        left:0;
+        margin:auto;
+    }
+    .project-content-block {
+         padding:0;
+         margin:0;
+         width:270px !important;
+         position: relative;
+         top:40px;
+         right:20px;
+      }
+
+    }
+

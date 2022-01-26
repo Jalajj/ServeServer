@@ -1,0 +1,81 @@
+.service-item {
+    position: relative;
+    padding: 45px 30px;
+    background: #F6F4F9;
+    overflow: hidden;
+    transition: .5s;
+}
+
+.service-item:hover {
+    margin-top: -15px;
+    padding-bottom: 60px;
+    background:  linear-gradient(
+        90deg,
+        rgb(110, 94, 254) 0%,
+        rgba(73, 63, 252, 1) 100%
+      );
+}
+
+.service-item .service-icon {
+    margin: 0 auto 20px auto;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #F6F4F9;
+    background: url(../../img/blob-primary.png) center center no-repeat;
+    background-size: contain;
+    transition: .5s;
+}
+
+.service-item:hover .service-icon {
+    color: #04000B;
+     background: url(../../img/blob-secondary.png) center center no-repeat; 
+    background-size: contain;
+}
+
+.service-item h5,
+.service-item p {
+    transition: .5s;
+}
+
+.service-item:hover h5,
+.service-item:hover p {
+    color: #FFFFFF;
+}
+
+.service-item a.btn {
+    position: absolute;
+    bottom: -40px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: var(--primary);
+    background: #FFFFFF;
+    border-radius: 40px 40px 0 0;
+    transition: .5s;
+    z-index: 1;
+}
+
+.service-item a.btn:hover {
+    color: #04000B;
+    background: #FBA504;
+}
+
+.service-item:hover a.btn {
+    bottom: 0;
+}
+.btn-square:hover{
+  background-color: linear-gradient(
+    90deg,
+    rgb(110, 94, 254) 0%,
+    rgba(73, 63, 252, 1) 100%
+  );;
+}
+
+@media (max-width:500px) {
+    .skill-cap{
+        font-size: 15px;
+        width: 100% !important;
+    }
+}

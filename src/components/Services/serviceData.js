@@ -1,0 +1,35 @@
+const serviceData = [
+        {
+            title: "Web development",
+            caption: "Our web application development services include development, testing, and support. In addition, our skilled web app developers can assist you with technological advice, legacy architecture modernization, and migration to new web architecture.",
+            icon : "fa fa-search fa-2x"
+        },
+         {
+            title: "Application Development",
+            caption: "Anyone can use our native app development services to create creative and user-friendly apps. We assure client success by developing high-quality software. Consultations on the tech stack, application development, testing, and deployment are all part of our mobile app services.",
+            icon:"fa fa-laptop-code fa-2x"
+        },
+        {
+             title: "E-commerce development",
+             caption: "We assist you in developing a powerful online store that is dynamic, scalable, and easy to administer. Important issues like design and accessibility, technology, privacy, future flexibility, and integration options are considered by our experts to assist you in fulfilling business needs.",
+             icon:"fab fa-facebook-f fa-2x"
+        },
+      {
+            title : "Back-End Development",
+            caption: "We furnish custom back-end development for many web, cloud-based, and cell apps throughout more than one domain. Whatever your requirements, our back-end development team will supply you with a custom-made solution that will assist you in achieving your goals.",
+            icon:"fa fa-mail-bulk fa-2x"
+        },
+       {
+            title: "Web design",
+            caption: "We provide interactive, good-looking, and professional web design services. An internet site is a fundamental entity of your business. It must mirror your logo aesthetic and inspire your target market to rely upon your business. Our custom net layout offerings are the consequences of a collaborative process.",
+            icon:"fa fa-thumbs-up fa-2x"
+        },
+       {
+            title: "Front-End Development ",
+            caption: "Start Paraphrasing we have experience constructing innovative, responsive, complex, and user-centric solutions. Our application interfaces are designed with close attention to detail and look remarkable on computer displays and mobile devices.",
+            icon:"fab fa-android fa-2x"
+        }
+    
+    ]
+
+ export default serviceData;
