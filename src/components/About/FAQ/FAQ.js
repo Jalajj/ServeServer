@@ -13,11 +13,9 @@ function FAQ() {
           rowTitleColor: "#78789a",
           rowContentColor: "#48484a",
           rowContentTextSize: "16px",
-          rowContentPaddingTop: "20px",
-          rowContentPaddingBottom: "10px",
-          rowContentPaddingLeft: "50px",
-          rowContentPaddingRight: "150px",
+     
           arrowColor: "FBA504",
+          innerWidth:"100%",
         }}
         config={{
           animate: true

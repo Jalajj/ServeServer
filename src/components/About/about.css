@@ -31,10 +31,10 @@
     .project-content-block {
          padding:0;
          margin:0;
-         width:270px !important;
+         width:320px !important;
          position: relative;
          top:40px;
-         right:20px;
+         right:40px;
       }
 
     }

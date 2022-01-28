@@ -12,7 +12,7 @@ function About() {
       </div>
   </div>
   <div class="col-lg-4 col-md-12 col-sm-12">
-      <div class="project-content-block" style={{width:500}}>
+      <div class="project-content-block p-3" style={{width:500}}>
           <h4>{aboutData.card1.title}</h4>
           <h2>{aboutData.card1.Caption}</h2>
           <p>{aboutData.card1.para}</p>

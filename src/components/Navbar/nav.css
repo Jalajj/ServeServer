@@ -125,13 +125,14 @@ root {
       text-align: center;
       position:relative;
       bottom: 300px;
+      right:20px;
       padding: 2rem;
       width: 100%;
       display: table;
     }
   
     .nav-links:hover {
-      background-color: #7577fa;
+      background-color: #3283cf;
       border-radius: 0;
     }
   
