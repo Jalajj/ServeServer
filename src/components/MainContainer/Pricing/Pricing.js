@@ -7,7 +7,7 @@ function Pricing() {
           <div className="col-md-8 col-lg-6 text-center">
               <div className="section-heading">      
                   <h2 className="section-title p-4 bg-light" style={{borderRadius:'10px'}}>Why choose Us?</h2>
-                  <p style={{display:'flex', flexDirection:'row'}}>So, you understand that we have the ability to develop softwares but why should you choose us? Well... Good question.</p>
+                  <p className='p-2' style={{display:'flex', flexDirection:'row'}}>So, you understand that we have the ability to develop softwares but why should you choose us? Well... Good question.</p>
               </div>
           </div>
       </div> 

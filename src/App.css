@@ -1,4 +1,8 @@
 /*** Heading ***/
+
+body {
+    font-family: 'Poppins';
+}
 h1,
 h2,
 .fw-bold {

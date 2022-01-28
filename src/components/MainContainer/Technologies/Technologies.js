@@ -11,7 +11,7 @@ function Technologies() {
               <div className="feature-item bg-light rounded text-center p-4">
                  <i className={tech.icon}></i>
                   <h5 className="mb-3">{tech.title}</h5>
-                  <p className="m-0">{tech.caption}</p>
+                  <p className="m-0 p-2">{tech.caption}</p>
               </div>
           </div>)})}
       </div>
