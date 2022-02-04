@@ -2,14 +2,14 @@ import React from 'react';
 import heroImg from "../../img/hero.png"
 import "./home.css"
 import Fade from "react-reveal/Fade"
+import MessengerCustomerChat from "react-messenger-customer-chat";
 
 function Home() {
 
     return (
       <div class="container-xxl hero-header bg-primary">
       <div class="container px-lg-5">
-          <div class="row g-5 align-items-end">
-         
+          <div class="row g-5 align-items-end">   
               <div class="col-lg-6 text-center text-lg-start">
               <Fade left>
                   <h1 class="text-white mb-4 animated slideInDown" style={{color:'white'}}>Most Efficient Software Services In Bhilai</h1>
@@ -25,6 +25,10 @@ function Home() {
                   <img class="img-fluid animated zoomIn" src={heroImg} alt="home" />
               </div>
           </div>
+          <MessengerCustomerChat
+                pageId="100077636719284"
+                appId="508163040680021"
+            />
       </div>
   </div>
     )
