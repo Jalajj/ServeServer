@@ -68,8 +68,7 @@ function Footer() {
                   <ul className="list-unstyled footer-links">
                       <li><span className='text-white'><i className="fab fa-instagram"></i>Instagram
                       </span></li>
-                      <li><span className='text-white'><i className="fab fa-google"></i>Jalajjain39@gmail.com
-                      </span></li>
+                      <li><span className='text-white'><i className="fab fa-google"></i>serveserverbhilai@gmail.com</span></li>
                   </ul>
               </div>
           </div>

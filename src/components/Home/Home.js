@@ -2,7 +2,8 @@ import React from 'react';
 import heroImg from "../../img/hero.png"
 import "./home.css"
 import Fade from "react-reveal/Fade"
-import MessengerCustomerChat from "react-messenger-customer-chat";
+import SimpleForm from './Chatbot/Chatbot';
+
 
 function Home() {
 
@@ -25,10 +26,7 @@ function Home() {
                   <img class="img-fluid animated zoomIn" src={heroImg} alt="home" />
               </div>
           </div>
-          <MessengerCustomerChat
-                pageId="100077636719284"
-                appId="508163040680021"
-            />
+          <SimpleForm />
       </div>
   </div>
     )

@@ -25,20 +25,39 @@ function SimpleForm() {
         floating: true,
         color:'blue'
       };
-let name;
+
   return <ThemeProvider theme={theme}>
       <Chatbot 
      steps={[
+       {
+         id:'q-services',
+         message: 'What services are you looking for?',
+         trigger:'services'
+       },
+       {
+          id:'services', 
+          user:true, 
+          validator: (value) => {
+             if (/^[A-Za-z][A-Za-z\'\-]+([\ A-Za-z][A-Za-z\'\-]+)*/.test(value))
+               {
+                 return true;
+               }
+             else
+               {
+                 return'Please input alphabet characters only.';
+               }
+          },
+          trigger:'q-name'
+         },
          {
           id:'q-name', 
-          message:'Hi there, What service do you want?', 
+          message:'Great!, what is you name?', 
           trigger:'name',
          },
          {
           id:'name', 
           user:true, 
           validator: (value) => {
-              name =value;
              if (/^[A-Za-z][A-Za-z\'\-]+([\ A-Za-z][A-Za-z\'\-]+)*/.test(value))
                {
                  return true;
@@ -52,7 +71,7 @@ let name;
          },
          {
           id:'q-email', 
-          message:`Hello ${name}, What is your email?`, 
+          message:`What is your email?`, 
           trigger:'email',
          },
          {
@@ -71,7 +90,7 @@ let name;
           trigger: 'q-phone'
          }, {
           id:'q-phone', 
-          message:`What is your phone number, ${name}?`,
+          message:`Lastly, What is your phone number?`,
           trigger:'phone',
          },
          {
