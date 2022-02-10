@@ -17,7 +17,7 @@ function Post({steps}) {
       }).catch((err) => {
         console.log(err);
       })
-    },[])
+    },[data])
 
   return <div>
       <p>Thanks for reaching out! We will get in touch with you very soon.</p>
