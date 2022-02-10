@@ -10,14 +10,11 @@ function Post({steps}) {
 };
 
 
-    React.useEffect(() => {
-      console.log(data)
-      axios.post('http://localhost:7000/chats/create', data).then((service) => {
+      axios.post('https://serve-server-chatbot.herokuapp.com/chats/create', data).then((service) => {
         console.log(service)
       }).catch((err) => {
         console.log(err);
-      })
-    },[data])
+      });
 
   return <div>
       <p>Thanks for reaching out! We will get in touch with you very soon.</p>
