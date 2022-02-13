@@ -3,9 +3,11 @@ import contactData from './contactData';
 import {useForm} from "react-hook-form";
 
 function Contact() {
+    const [thanks, setThanks] = React.useState(false);
     const { register, handleSubmit, formState:{errors} } = useForm();
     const submitData = (data) => {
-        console.log(data)
+        console.log(data);
+        setThanks(data);
     }
   return  <div className="container-xxl py-5">
         <section id="contact-info">
@@ -37,14 +39,16 @@ function Contact() {
     </section>
   <div className="container py-5 px-lg-5">
       <div className="wow fadeInUp" data-wow-delay="0.1s">
-          <h1 className="text-center mb-5">Contact For Any Query</h1>
+          {thanks ? <h2 className="text-center mb-5 text-success">Thanks for your feedback we will get to you soon!</h2>
+            : <h1 className="text-center mb-5">Contact For Any Query</h1>
+          }
       </div>
 
       <div className="row justify-content-center">
           <div className="col-lg-7">
               <div className="wow fadeInUp" data-wow-delay="0.3s">
                   <p className="text-center mb-4">We suggest you should call us if you haven't already for better experience. Otherwise you can also send us your queries, or suggestions using the form below.</p>
-                  <form action="https://formsubmit.co/3daed419286e31e3d6c9ebbe252654d3" method="POST">
+                  <form action="https://formsubmit.co/serveserverbhilai@gmail.com" method="POST">
                       <div className="row g-3">
                           <div className="col-md-6">
                               <div className="form-floating">
@@ -69,7 +73,7 @@ function Contact() {
                           </div>
                           <div className="col-12">
                               <div className="form-floating">
-                                  <textarea className="form-control" placeholder="Leave a message here" id="message" style={{height: "150px"}}  {...register("message",{required:true, minLength:'30'})}></textarea>
+                                  <input type="text" name="message" className="form-control" placeholder="Leave a message here" id="message" style={{height: "150px"}}  {...register("message",{required:true, minLength:'30'})}></input>
                                   <label for="message">Message</label>
                               </div>
                               {errors.message && <span className="text-danger">Message is not valid</span>}
@@ -78,8 +82,8 @@ function Contact() {
                               <button className="btn btn-primary w-100 py-3" type="submit" onClick={handleSubmit((data) => submitData(data))}>Send Message</button>
                           </div>
                       </div>
+                      <input type="hidden" name="_subject" value="New email" />
                       <input type="hidden" name="_captcha" value="false"></input>
-          <input type="hidden" name="_autoresponse" value="Hey there! Jalaj this side thank you for reaching out! I will be getting in touch soon :)"></input>
                   </form>
               </div>
           </div>
