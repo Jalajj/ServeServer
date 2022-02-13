@@ -10,8 +10,8 @@ const serviceData = [
             icon:"fa fa-laptop-code fa-2x"
         },
         {
-             title: "E-commerce development",
-             caption: "We assist you in developing a powerful online store that is dynamic, scalable, and easy to administer. Important issues like design and accessibility, technology, privacy, future flexibility, and integration options are considered by our experts to assist you in fulfilling business needs.",
+             title: "Provide courses",
+             caption: "We provide you offline as well as online courses to learn MERN stack development in bhilai. So if you are enthusiast and want to learn to design and build real world applications our software development company have exclusive learning materials and paths for you.",
              icon:"fab fa-facebook-f fa-2x"
         },
       {

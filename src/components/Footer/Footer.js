@@ -11,7 +11,7 @@ function Footer() {
                   <h2 className="footer-brand text-white">
                       ServeServer
                   </h2>
-                  <p className="text-white">A digital agency that is affordable, talented, and well-skilled provides you with softwares with great efficiency and brings your ideas to life.</p>
+                  <p className="text-white">A software development company that is affordable, talented, and well-skilled provides you with softwares with great efficiency and brings your ideas to life.</p>
               </div>
           </div>
 

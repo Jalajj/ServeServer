@@ -20,7 +20,7 @@ function Pricing() {
                   </div> */}
 
                   <ul className="price-features list-unstyled">
-                      <li>We are the most affordable service in Bhilai, durg.</li>
+                      <li>We are the most affordable software development company in Bhilai, durg.</li>
                       <li>Our projects start with only 1000 Rs. so any business or enthusiast can get their ideas into life.</li>
                       <li>We provide Affordable products, efficient and effective apps.</li>
                   </ul>

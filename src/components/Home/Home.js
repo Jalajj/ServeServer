@@ -13,7 +13,7 @@ function Home() {
           <div class="row g-5 align-items-end">   
               <div class="col-lg-6 text-center text-lg-start">
               <Fade left>
-                  <h1 class="text-white mb-4 animated slideInDown" style={{color:'white'}}>Most Efficient Software Services In Bhilai</h1>
+                  <h1 class="text-white mb-4 animated slideInDown" style={{color:'white'}}>Most Efficient Software development Company In Bhilai</h1>
                 
                   <p class="text-white pb-3 animated slideInDown"  style={{color:'white'}}>
                   A agency that is affordable, talented, and well-skilled provides you with softwares with great efficiency and brings your ideas to life.
