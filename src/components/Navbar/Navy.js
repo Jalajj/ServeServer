@@ -12,7 +12,7 @@ const Navy = () => {
   return (
     <>
     <nav className="navbar bg-primary">
-      <a href="/" className="navbar-logo m-auto" style={{textDecoration:'none', fontSize:38, fontWeight:800}}>
+      <a href="/" className="navbar-logo m-auto" style={{textDecoration:'none', fontSize:30, fontWeight:800}}>
       ServeServer
       </a>
       <div className="menu-icon" onClick={handleClick}>

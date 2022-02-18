@@ -2,13 +2,14 @@ import React from 'react';
 import "./about.css"
 import {aboutData} from "./aboutData"
 import FAQ from './FAQ/FAQ';
+import logo from "../../img/logo.png"
 
 function About() {
   return <div className='container'>
   <div class="row py-4 m-5">
   <div class="col-lg-7 col-md-12 col-sm-12 ">
       <div class="single-project">
-          <img style={{maxHeight:400, width:'auto'}} src="https://images.pexels.com/photos/160107/pexels-photo-160107.jpeg?auto=compress&cs=tinysrgb&dpr=1"  alt="computer" class="img-fluid" />
+          <img style={{maxHeight:400, width:'auto'}} src={logo}  alt="computer" class="img-fluid" />
       </div>
   </div>
   <div class="col-lg-4 col-md-12 col-sm-12">

@@ -1,14 +1,17 @@
+import React from "react";
+import logo from "../../../img/logo.png"
+
 function AboutSection() {
   return  <section id="about" className='m-auto' style={{height:'auto', marginTop:'10%'}}>
   <div className="container m-auto bg-light p-3" style={{borderRadius:20}}>
       <div className="row">
           <div className="col-md-6 m-bottom-30">
-              <img style={{height:'auto',width:'100%', objectFit: "cover"}} src="https://images.unsplash.com/photo-1563986768609-322da13575f3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8bW9iaWxlJTIwYXBwJTIwZGV2ZWxvcG1lbnR8ZW58MHx8MHx8&auto=format&fit=crop&q=60" 
+              <img style={{maxHeight:'450px',width:'100%', objectFit: "cover"}} src={logo} 
                  alt="About" className="img-responsive wow fadeInLeft" />
           </div>
           <div className="col-md-6">
           
-              <div className="m-bottom-30">
+              <div className="m-bottom-30 bg-light">
                   <h2 className="p-2">About Our Agency</h2>
                   <div className="divider-small wow zoomIn" data-wow-duration="1s" data-wow-delay="0.7s"></div>
               </div>
