@@ -4,14 +4,14 @@ import './footer.css'
 function Footer() {
   return <footer className="section mt-5 " id="footer" style={{backgroundColor: '#2156c8'}}>
   <div className="overlay footer-overlay"></div>
-  <div className="container">
+  <div className="container-fluid">
       <div className="row justify-content-start">
-          <div className="col-lg-4 col-sm-12">
+          <div className="col-lg-5 col-sm-12">
               <div className="footer-widget">
                   <h2 className="footer-brand text-white">
                       ServeServer
                   </h2>
-                  <p className="text-white">A software development company that is affordable, talented, and well-skilled provides you with softwares with great efficiency and brings your ideas to life.</p>
+                  <p className="text-white" style={{maxWidth:'450px'}}>A software development company that is affordable, talented, and well-skilled provides you with softwares with great efficiency and brings your ideas to life.</p>
               </div>
           </div>
 
@@ -66,8 +66,7 @@ function Footer() {
               <div className="footer-widget">
                   <h3>Socials</h3>
                   <ul className="list-unstyled footer-links">
-                      <li><span className='text-white'><i className="fab fa-instagram"></i>Instagram
-                      </span></li>
+                      <li><span className='text-white'><i className="fab fa-instagram"></i>Instagram </span></li>
                       <li><span className='text-white'><i className="fab fa-google"></i>serveserverbhilai@gmail.com</span></li>
                   </ul>
               </div>

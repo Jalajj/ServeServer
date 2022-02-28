@@ -72,6 +72,10 @@
   .current-year {
     color: #21c87a !important;
   }
+
+.footer-widget{
+ margin-left: 5%;
+}
   
 @media (max-width:500px){
   .copyright{
