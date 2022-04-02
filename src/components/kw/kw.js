@@ -1,0 +1,10 @@
+export const mainKW = 'software company in bhilai';
+export const stateKW = 'IT companies in chhattisgarh';
+export const designKW = 'website designing company in bhilai';
+export const stateKW2 = 'software companies in chhattisgarh';
+export const devKW = 'software development company';
+export const nearKW = 'software companies near me';
+export const digiKW = 'digital marketing company in bhilai';
+export const webKW = 'website development company in bhilai';
+export const agencyKW = 'digital agency in bhilai';
+export const marKW = 'digital marketing in bhilai';

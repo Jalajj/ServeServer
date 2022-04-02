@@ -1,8 +1,10 @@
+import { webKW } from "../../kw/kw";
+
 const techData = [
      {
          id:0,
         title: "Web Development",
-        caption: "We provide full stack web development services and provide applications that are scalable, fast, look good, and are useful in the real world. Whether it be business, e-commerce, portfolio, or startup, we will be glad to build a website for you.",
+        caption:  `Our ${webKW} provide full stack web development services and provide applications that are scalable, fast, look good, and are useful in the real world. Whether it be business, e-commerce, portfolio, or startup, we will be glad to build a website for you.`,
         icon: "fa fa-3x fa-mail-bulk text-primary mb-4"
     },
   {

@@ -1,9 +1,11 @@
+import {mainKW, agencyKW} from '../../kw/kw';
+
 const data = {
     title: "FAQ (FREQUENTLY ASKED QUESTIONS)",
     rows: [
       {
         title: "How much does our services charge?",
-        content: "Our services start from as low as 1000 Rs. Anyone with a little passion or enthusiasm to take their business digital can afford our services. You can contact us for more information."
+        content: `We are the most efficient ${mainKW}. Our services start from as low as 1000 Rs. Anyone with a little passion or enthusiasm to take their business digital can afford our services. You can contact us for more information.`
       },
       {
         title: "Can we also design the apps?",
@@ -17,7 +19,7 @@ const data = {
       {
         title: "What is the motive of this agency?",
         content:
-          "We aim to provide value to each shopkeeper, individual, or business by offering affordable and efficient services so that everyone can take their business digital in Bhilai and durg."
+          `Our ${agencyKW} aim to provide value to each shopkeeper, individual, or business by offering affordable and efficient services so that everyone can take their business digital in Bhilai and durg.`
       }
     ]
   };

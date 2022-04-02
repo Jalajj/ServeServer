@@ -1,4 +1,5 @@
 import React from 'react';
+import { webKW } from '../../kw/kw';
 import "./pricing.css"
 
 function Pricing() {
@@ -21,7 +22,7 @@ function Pricing() {
 
                   <ul className="price-features list-unstyled">
                       <li>We are the most affordable software development company in Bhilai, durg.</li>
-                      <li>Our projects start with only 1000 Rs. so any business or enthusiast can get their ideas into life.</li>
+                      <li>Our {webKW}  have projects that start with only 1000 Rs. so any business or enthusiast can get their ideas into life.</li>
                       <li>We provide Affordable products, efficient and effective apps.</li>
                   </ul>
               </div>
