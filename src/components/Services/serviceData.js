@@ -1,4 +1,4 @@
-import { mainKW, designKW, mainKW, devKW} from "../kw/kw";
+import { mainKW, designKW, devKW} from "../kw/kw";
 
 const serviceData = [
         {
